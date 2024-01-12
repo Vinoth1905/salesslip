@@ -18,7 +18,7 @@ public class SalesslipApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		String to = "vinoth19052000@gmail.com";
+		String to = "kumarvinoth1308@gmail.com";
 		String cc = "vinoth@gomobi.io";
 		String subject = "Mail From Vinoth";
 		String templateName = "template.html";

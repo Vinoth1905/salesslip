@@ -43,7 +43,9 @@ public class EmailServiceImpl implements EmailService {
             // Send email
             javaMailSender.send(mimeMessage);
         } catch (MessagingException e) {
+
             e.printStackTrace();
+            System.err.println("Email Error : "+e);
         }
     }
 }
